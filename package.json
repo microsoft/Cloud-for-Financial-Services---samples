@@ -1,0 +1,14 @@
+{
+  "name": "cloud-for-financial-services---samples",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "intelligent-appointment/*"
+    ]
+  },
+  "devDependencies": {
+    "vite-plugin-dts": "^1.3.0",
+    "yarn": "1.22.19"
+  }
+}
