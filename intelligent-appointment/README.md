@@ -16,6 +16,7 @@ Its aim is to simplify the development process and allow Microsoft customers to 
 1. Active Azure Web Services subscriptions
 2. VS Studio Code and [Azure Function Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
 3. [Azure Functions Core Tools 4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#install-the-azure-functions-core-tools)
+4. [Experimenting with Azure Static Web Apps](https://azure.github.io/static-web-apps-cli/)
 
 ## File structures
 
@@ -42,7 +43,15 @@ yarn build
 
 **Note** that every time you change the code within `/appointment-starter-kit`, you need to run the above command again to make sure the project is built and updated.
 
-3. Now you can navigate to `demo-web-app/api` to build/debug the serverless function, or to `demo-web-app` to configure and start the local dev environment for the demo app, or build and deploy it per need.
+3. Now you can navigate to `demo-web-app` to configure and start the local dev environment for the demo app, or build and deploy it per need.
+
+```bash
+yarn dev
+
+#OR to start local dev with azure function
+yarn swa start
+
+```
 
 ## Resources
 
