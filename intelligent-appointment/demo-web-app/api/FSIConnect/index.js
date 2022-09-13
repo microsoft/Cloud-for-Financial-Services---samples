@@ -11,7 +11,6 @@ module.exports = async function (context, req) {
 
     if (data && req.body.payload?.Contact) {
         data.Contact = req.body.payload?.Contact
-        throw new Error('Not implemented')
     }
 
     const response = await axios({

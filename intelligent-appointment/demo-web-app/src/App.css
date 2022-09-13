@@ -75,5 +75,5 @@ span[role=checkbox]{
 }
 
 label {
-  all: initial;
+  font-weight: normal;
 }
