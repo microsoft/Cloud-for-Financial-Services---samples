@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC } from 'react';
 import { useSelector } from '@xstate/react';
 import { BranchPickerService, BRANCH_MEETING_TYPES, BRANCH_PICKER_EVENTS } from '../../../machines/branchPicker.machine';

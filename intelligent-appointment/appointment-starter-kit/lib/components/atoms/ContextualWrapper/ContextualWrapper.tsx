@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC } from 'react';
 import { Loading } from '../Loading/Loading';
 import { useTranslation } from '../../../hooks/useTranslation';

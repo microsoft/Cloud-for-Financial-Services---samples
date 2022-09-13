@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { IChoiceGroupOption } from '@fluentui/react';
 
 export type DateRangeSelection = {

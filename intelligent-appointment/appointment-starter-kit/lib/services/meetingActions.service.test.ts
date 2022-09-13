@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { createMeetingServices } from './meetingActions.service'
 import { IMeetingConfig, IMeetingResponse, MEETING_STATES } from './interfaces/IMeetingActionsService';
 import { CANCEL_MEETING, CREATE_MEETING, DEFAULT_REQUEST_PAYLOAD, MEETINGS } from './constants';

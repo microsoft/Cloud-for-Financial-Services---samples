@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { DefaultButton, PrimaryButton, Stack, NeutralColors } from '@fluentui/react';
 import { useActor, useInterpret } from '@xstate/react';
 import React, { ReactElement, ReactNode, FC, useMemo } from 'react';

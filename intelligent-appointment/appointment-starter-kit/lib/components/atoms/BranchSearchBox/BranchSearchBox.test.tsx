@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { render, fireEvent, act } from '@testing-library/react';
 import { BranchSearchBox } from './BranchSearchBox';
 import { BRANCH_PICKER_EVENTS } from '../../../machines/branchPicker.machine';

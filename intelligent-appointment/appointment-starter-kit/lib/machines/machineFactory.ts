@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { createMachine, StateMachine } from 'xstate';
 import { getParam } from '../helpers/queryParams.helper';
 import { IMeetingConfig } from '../services/interfaces/IMeetingActionsService';

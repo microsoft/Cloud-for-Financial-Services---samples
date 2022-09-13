@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React from 'react';
 import { Selection } from '@fluentui/react';
 import { fireEvent, render } from '@testing-library/react';

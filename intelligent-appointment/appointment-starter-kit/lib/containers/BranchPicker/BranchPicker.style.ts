@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { mergeStyles, FontWeights, FontSizes, NeutralColors, IStackStyles } from '@fluentui/react';
 import { wizardCommonStyles } from '../../styles/Stack.style';
 

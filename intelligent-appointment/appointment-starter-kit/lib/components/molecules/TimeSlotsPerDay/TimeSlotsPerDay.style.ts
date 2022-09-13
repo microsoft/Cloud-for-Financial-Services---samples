@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { FontSizes, FontWeights, mergeStyleSets, NeutralColors } from '@fluentui/react';
 
 export const timeSlotsPerDayStyles = {

@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { NeutralColors, mergeStyles, FontWeights } from '@fluentui/react';
 
 export const TopicCardStyle = {

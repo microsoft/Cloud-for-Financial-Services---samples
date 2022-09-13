@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC, useState } from 'react';
 import { useTranslation } from '../../hooks/useTranslation';
 import { pickerFooterGap, pickerFooterStyles } from '../BranchPicker/BranchPicker.style';

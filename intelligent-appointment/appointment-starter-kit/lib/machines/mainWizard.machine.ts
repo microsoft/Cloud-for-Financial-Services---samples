@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { Interpreter, assign, MachineConfig, ActionObject } from 'xstate';
 import { IMeeting } from '../models/IMeeting';
 import { IParentServiceMachineContext } from '../models/IParentMachineService';

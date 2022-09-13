@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { Separator, Stack, DayOfWeek, Calendar, ICalendarProps, ChoiceGroup, IChoiceGroupOption } from '@fluentui/react';
 import React, { FC, FormEvent } from 'react';
 import { IDateRangeProps, IRangeOption } from './DateRange.interface';

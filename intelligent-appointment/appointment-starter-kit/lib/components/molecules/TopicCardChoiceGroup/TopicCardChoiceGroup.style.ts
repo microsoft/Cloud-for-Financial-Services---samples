@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { FontSizes } from '@fluentui/react';
 import { COLORS } from '../../../helpers/colors.helper';
 

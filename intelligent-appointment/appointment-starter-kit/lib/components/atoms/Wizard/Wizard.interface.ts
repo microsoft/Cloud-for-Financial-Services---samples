@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { IStackProps } from '@fluentui/react';
 import { ReactElement } from 'react';
 import { Interpreter } from 'xstate';

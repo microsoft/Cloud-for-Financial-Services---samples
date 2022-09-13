@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { ChoiceGroup, IChoiceGroupOption } from '@fluentui/react';
 import React, { FC, useMemo } from 'react';
 import { ITopicCardProps, TopicCard } from '../../atoms/TopicCard';

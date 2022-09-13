@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 export * from './branchPicker.machine';
 export * from './dialog.machine';
 export * from './meetingTopicPicker.machine';

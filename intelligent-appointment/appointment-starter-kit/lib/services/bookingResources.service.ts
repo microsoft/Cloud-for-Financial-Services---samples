@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { DelegatorFunc } from '../models/IRequestPayLoad';
 import { ITimeSlot, ITimeSlots, ITimeSlotSearchConfiguration, TimeSlotSearchRequestPayload, ITimeSlotsRawResponse } from '../models/ITimeSlot';
 import { getRequestPayload, GET_TIMESLOTS } from './constants';

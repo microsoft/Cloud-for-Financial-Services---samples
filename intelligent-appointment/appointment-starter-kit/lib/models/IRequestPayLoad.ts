@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { CancelMeetingRequestPayload, CreateMeetingPayload } from '../services/interfaces/IMeetingActionsService';
 import { TimeSlotSearchRequestPayload } from './ITimeSlot';
 

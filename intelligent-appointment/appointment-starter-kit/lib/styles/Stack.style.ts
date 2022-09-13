@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 export const childrenTokens = { childrenGap: 12 };
 
 export const wizardCommonStyles = { width: '100%' };

@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC, useEffect, useMemo } from 'react';
 import { IObjectWithKey, Selection, SelectionMode, SelectionZone, Stack, ActionButton } from '@fluentui/react';
 import { TimeslotPickerService, TIMESLOT_PICKERS_EVENTS } from '../../../machines/timeSlotPicker.machine';

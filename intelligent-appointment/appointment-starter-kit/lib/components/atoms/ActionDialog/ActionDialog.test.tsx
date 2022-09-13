@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { ActionDialog } from './ActionDialog'
 import { render } from '@testing-library/react'
 

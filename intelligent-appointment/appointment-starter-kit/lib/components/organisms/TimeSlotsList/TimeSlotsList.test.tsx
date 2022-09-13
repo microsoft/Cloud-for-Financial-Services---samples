@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { render } from '@testing-library/react';
 import { mockTimeSlots } from '../../../test-utils/mocks/data.mock';
 import { TimeSlotsList } from './TimeSlotsList';

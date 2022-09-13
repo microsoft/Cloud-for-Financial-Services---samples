@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { act, fireEvent, render } from '@testing-library/react';
 import { mockLocations } from '../../../test-utils/mocks/data.mock';
 import { BranchesTable } from './BranchesTable'

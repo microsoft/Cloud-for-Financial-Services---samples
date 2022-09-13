@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC, useEffect, useMemo } from 'react';
 import {
     DetailsList,

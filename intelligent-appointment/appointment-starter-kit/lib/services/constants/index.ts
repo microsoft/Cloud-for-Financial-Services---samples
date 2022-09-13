@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 export const DEFAULT_REQUEST_PAYLOAD = {
     version: '1.0',
 }

@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React from 'react';
 import { render } from '@testing-library/react';
 import MeetingInfo, { MEETING_INFO_ICON_WRAPPER_ID, MEETING_INFO_TEST_ID } from './MeetingInfo';

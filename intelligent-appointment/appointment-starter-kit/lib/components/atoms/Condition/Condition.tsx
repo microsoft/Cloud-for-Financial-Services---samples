@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC } from 'react';
 import type { IConditionProps } from './Condition.interface';
 import { Stack, Link } from '@fluentui/react';

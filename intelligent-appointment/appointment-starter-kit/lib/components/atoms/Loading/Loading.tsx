@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC } from 'react';
 import { Spinner, SpinnerSize, Stack, IStackStyles } from '@fluentui/react';
 import { useTranslation } from '../../../hooks/useTranslation';

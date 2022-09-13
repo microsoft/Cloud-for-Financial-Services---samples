@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC } from 'react';
 import { useTranslation } from '../../../hooks/useTranslation';
 import format from 'date-fns/format';

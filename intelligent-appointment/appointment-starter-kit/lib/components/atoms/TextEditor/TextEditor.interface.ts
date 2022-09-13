@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { ITextFieldStyles, ITextFieldProps, IStyleFunctionOrObject, ITextFieldStyleProps } from '@fluentui/react';
 
 export interface ITextEditorProps extends Omit<Partial<ITextFieldProps>, 'onChange'> {

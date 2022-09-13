@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 export * from './machines';
 export { FSIAppointmentClientProvider, FSIAppointmentClientContext } from './contexts/FSIAppointmentClientProvider/FSIAppointmentClientProvider'
 export { SchedulingWizard } from './containers/SchedulingWizard/SchedulingWizard'

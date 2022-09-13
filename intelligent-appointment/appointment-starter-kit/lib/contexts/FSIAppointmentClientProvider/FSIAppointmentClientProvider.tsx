@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { createContext, FC } from 'react';
 import { IAClientMachines } from '../../machines';
 import { useI18nService } from '../../locales';

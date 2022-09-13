@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC, PropsWithChildren } from 'react';
 import {
     Dialog as FluentDialog,

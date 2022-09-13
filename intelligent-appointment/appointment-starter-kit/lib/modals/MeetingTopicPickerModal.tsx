@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC, useContext } from 'react';
 import { IStackStyles, DialogFooter as FluentDialogFooter, DefaultButton, PrimaryButton, Stack } from '@fluentui/react';
 import { MeetingTopicPickerCore, MEETING_TOPIC_PICKER_STEPS_CONFIG } from '../containers/MeetingTopicPicker/MeetingTopicPicker';
