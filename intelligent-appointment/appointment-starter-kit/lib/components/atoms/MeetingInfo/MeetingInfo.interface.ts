@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { ReactElement } from 'react';
 import { IStyle } from '@fluentui/react';
 

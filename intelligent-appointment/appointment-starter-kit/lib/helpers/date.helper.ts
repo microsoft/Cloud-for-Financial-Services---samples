@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { addDays, endOfMonth, nextMonday, startOfMonth, lastDayOfWeek, format, isSameDay } from 'date-fns';
 import { DateRangeSelection, IDateRangeOption } from '../models/IDateRangeOption';
 

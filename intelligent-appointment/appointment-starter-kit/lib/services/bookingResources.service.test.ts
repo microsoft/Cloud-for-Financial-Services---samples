@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { createBookingResourceService } from './bookingResources.service'
 import { mockTimeSlots } from '../test-utils/mocks/data.mock';
 import { ADVISORS, DEFAULT_REQUEST_PAYLOAD, GET_TIMESLOTS } from './constants';

@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React from 'react';
 import { render, act } from '@testing-library/react';
 import { Wizard, WIZARD_EVENTS } from './Wizard';

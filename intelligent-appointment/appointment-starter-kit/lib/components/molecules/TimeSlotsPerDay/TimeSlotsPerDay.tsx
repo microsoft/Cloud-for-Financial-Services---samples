@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC, ReactElement, useMemo } from 'react';
 import { Label, Text, Stack, Selection, NeutralColors, FontSizes } from '@fluentui/react';
 import TimeSlot from '../../atoms/TimeSlot/TimeSlot';

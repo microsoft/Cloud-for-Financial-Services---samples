@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { Interpreter } from 'xstate';
 import { IBranch } from './IBranch';
 import { IMeetingTopic } from './IMeetingTopic';

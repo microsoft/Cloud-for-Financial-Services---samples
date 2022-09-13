@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { FontSizes } from '@fluentui/theme';
 import { FontWeights, mergeStyleSets, NeutralColors } from '@fluentui/react';
 

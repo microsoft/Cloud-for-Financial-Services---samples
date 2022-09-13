@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { createMachine, assign } from 'xstate';
 import { ReactElement } from 'react';
 

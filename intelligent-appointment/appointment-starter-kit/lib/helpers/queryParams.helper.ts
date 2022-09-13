@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 const queryParams = new URLSearchParams(window.location.search);
 
 export const setParam = (key: string, value: string) => {

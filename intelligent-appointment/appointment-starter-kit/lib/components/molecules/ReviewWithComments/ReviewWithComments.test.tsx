@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { render, act, fireEvent } from '@testing-library/react';
 import { mockLocations, mockMeetingTypes } from '../../../test-utils/mocks/data.mock';
 import { ReviewWithComments } from './ReviewWithComments'

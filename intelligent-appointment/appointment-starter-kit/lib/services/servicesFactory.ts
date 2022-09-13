@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { DelegatorFunc } from '../models/IRequestPayLoad';
 import createMeetingServices from './meetingActions.service';
 import { createBookingResourceService } from './bookingResources.service';

@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC } from 'react';
 import { Stack, Image } from '@fluentui/react';
 import { getClassNames, imageStyle } from './InfoState.style';

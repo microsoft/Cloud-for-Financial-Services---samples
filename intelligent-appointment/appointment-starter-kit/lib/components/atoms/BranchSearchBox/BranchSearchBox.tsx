@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC, KeyboardEvent } from 'react';
 import { SearchBox } from '@fluentui/react';
 import { useActor } from '@xstate/react';

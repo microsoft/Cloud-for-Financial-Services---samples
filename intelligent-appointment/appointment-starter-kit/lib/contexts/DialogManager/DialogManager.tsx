@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC, createContext, useContext } from 'react';
 import { ActionDialog as Dialog } from '../../components/atoms/ActionDialog/ActionDialog';
 import { Interpreter } from 'xstate';

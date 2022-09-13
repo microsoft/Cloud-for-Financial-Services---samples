@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC, FormEvent } from 'react';
 import { TextField, mergeStyleSets } from '@fluentui/react';
 import type { ITextEditorProps } from './TextEditor.interface';

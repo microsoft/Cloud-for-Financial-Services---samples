@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { assign, createMachine, Interpreter, MachineConfig, spawn } from 'xstate';
 import { ITimeSlot } from '../models/ITimeSlot';
 import format from 'date-fns/format';

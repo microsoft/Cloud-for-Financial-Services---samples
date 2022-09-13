@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { MEETING_LIMITATIONS } from '../machines';
 import { DEFAULT_REQUEST_PAYLOAD, GET_SCHEDULE_PROPERTIES } from './constants';
 import { createMeetingResourceService } from './meetingResources.service'

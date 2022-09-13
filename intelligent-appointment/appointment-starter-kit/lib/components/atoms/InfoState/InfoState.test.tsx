@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import InfoState, { ICON_TEST_ID, ICON_WRAPPER_TEST_ID, INFO_STATE_TEST_ID, SUBTITLE_TEST_ID } from './InfoState';
 import { IInfoStateProps } from './InfoState.interface';
 import { render } from '@testing-library/react';

@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { act, fireEvent, render } from '@testing-library/react';
 import { DialogManagerContext } from '../../../contexts/DialogManager/DialogManager';
 import { dateRanges, toDateRangeFormat } from '../../../helpers/date.helper';

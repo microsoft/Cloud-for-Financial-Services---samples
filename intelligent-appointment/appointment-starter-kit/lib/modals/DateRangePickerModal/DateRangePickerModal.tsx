@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { useTranslation } from '../../hooks/useTranslation';
 import { useActor } from '@xstate/react';
 import React, { useContext } from 'react';

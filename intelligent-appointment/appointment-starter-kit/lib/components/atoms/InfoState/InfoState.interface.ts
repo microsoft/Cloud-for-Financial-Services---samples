@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { ReactElement } from 'react';
 import { IStyle } from '@fluentui/merge-styles/lib/IStyle';
 

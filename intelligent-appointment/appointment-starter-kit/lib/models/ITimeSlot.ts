@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { IAdvisor } from "./IAdvisor";
 
 export interface ITimeSlotResourceAssignment {

@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 
 import { MeetingTopicPickerIntepreter } from '../../machines/meetingTopicPicker.machine';
 import { IStackStyles } from '@fluentui/react';

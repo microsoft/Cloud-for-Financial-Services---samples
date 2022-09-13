@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { addDays, endOfMonth, nextMonday, startOfMonth, lastDayOfWeek  } from 'date-fns';
 import { DateRangeSelection, IRangeOption } from '../../components/atoms/DateRange/DateRange.interface';
 

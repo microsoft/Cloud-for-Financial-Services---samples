@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { FontIcon, Stack, Text } from '@fluentui/react';
 import React, { FC } from 'react';
 import { childrenTokens } from '../../../styles/Stack.style';

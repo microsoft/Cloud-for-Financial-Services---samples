@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React from 'react';
 import { render } from '@testing-library/react';
 import { TimeSlotsPerDay, TITLE_FORMAT } from './TimeSlotsPerDay';

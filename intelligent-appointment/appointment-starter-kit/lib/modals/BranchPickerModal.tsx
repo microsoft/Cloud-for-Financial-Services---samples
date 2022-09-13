@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC, useContext } from 'react';
 import { DialogManagerContext } from '../contexts/DialogManager/DialogManager';
 import { useInterpret } from '@xstate/react';

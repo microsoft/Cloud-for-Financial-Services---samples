@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { dateRanges, toDateRangeFormat, toDayAndMonth, toFullDayAndYear, toShortDayAndMonth } from './date.helper'
 import { nextMonday, lastDayOfWeek, startOfMonth, addDays, endOfMonth } from 'date-fns'
 

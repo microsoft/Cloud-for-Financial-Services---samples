@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { useContext } from 'react';
 import { fireEvent, render, act } from '@testing-library/react';
 import { DialogManagerContext, DialogManagerProvider } from './DialogManager';

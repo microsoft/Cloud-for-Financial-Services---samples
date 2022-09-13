@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React from 'react';
 import { MeetingTopicPicker } from '../MeetingTopicPicker/MeetingTopicPicker';
 import { WizardCore } from '../../components/atoms/Wizard/Wizard';

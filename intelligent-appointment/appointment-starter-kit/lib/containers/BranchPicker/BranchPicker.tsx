@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC, useContext } from 'react';
 import { useInterpret, useSelector } from '@xstate/react';
 import { BranchesTable } from '../../components/molecules/BranchesTable/BranchesTable';

@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { useSelector } from '@xstate/react';
 import { SchedulingWizardContext, SchedulingWizardService } from '../machines/mainWizard.machine';
 import { IParentServiceMachineService } from '../models/IParentMachineService';

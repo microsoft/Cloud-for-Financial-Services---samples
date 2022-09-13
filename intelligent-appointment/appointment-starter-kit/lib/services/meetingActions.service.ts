@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { IMeeting } from '../models/IMeeting';
 import { DelegatorFunc } from '../models/IRequestPayLoad';
 import { CANCEL_MEETING, CREATE_MEETING, getRequestPayload, MEETINGS } from './constants';

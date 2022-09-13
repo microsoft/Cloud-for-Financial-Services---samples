@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { NeutralColors } from '@fluentui/theme/lib/colors/FluentColors';
 
 export const COLORS = {

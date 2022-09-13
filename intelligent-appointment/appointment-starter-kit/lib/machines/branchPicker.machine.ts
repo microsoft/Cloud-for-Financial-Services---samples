@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { assign, Interpreter, MachineConfig, ActionObject } from 'xstate';
 import { IBranch } from '../models/IBranch';
 import { IMeetingType } from '../models/IMeetingType';

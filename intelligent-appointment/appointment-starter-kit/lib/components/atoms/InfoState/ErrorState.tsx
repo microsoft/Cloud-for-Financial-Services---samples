@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC } from 'react';
 import InfoState, { ICON_TEST_ID } from './InfoState';
 import { IInfoStateProps, STATES } from './InfoState.interface';

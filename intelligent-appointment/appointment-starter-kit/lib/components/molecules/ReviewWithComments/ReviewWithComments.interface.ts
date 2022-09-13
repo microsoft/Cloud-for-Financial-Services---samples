@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 
 import { FormEvent } from 'react';
 import { IAdvisor } from '../../../models/IAdvisor';

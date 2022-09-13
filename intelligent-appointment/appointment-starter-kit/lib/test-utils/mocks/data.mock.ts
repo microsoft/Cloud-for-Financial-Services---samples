@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { IMeeting } from '../../models/IMeeting';
 import { IBranch } from '../../models/IBranch';
 import { IMeetingType } from '../../models/IMeetingType';

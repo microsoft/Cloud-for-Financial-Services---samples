@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { assign, Interpreter, MachineConfig } from 'xstate';
 import { setParam } from '../helpers/queryParams.helper';
 import { IMeetingTopic } from '../models/IMeetingTopic';

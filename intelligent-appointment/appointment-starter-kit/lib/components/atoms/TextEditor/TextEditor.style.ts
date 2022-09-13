@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 const LINE_HEIGHT = '20px';
 
 export const textEditorStyles = {

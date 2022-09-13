@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import { useActor, useInterpret } from '@xstate/react';
 import React, { FC, useContext } from 'react';
 import { TopicCardChoiceGroup } from '../../components/molecules/TopicCardChoiceGroup';

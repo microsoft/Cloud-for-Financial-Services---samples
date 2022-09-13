@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 export interface IAddress {
     streetOne?: string;
     city?: string;

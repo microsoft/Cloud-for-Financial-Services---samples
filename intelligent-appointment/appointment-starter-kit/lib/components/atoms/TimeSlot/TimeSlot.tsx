@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 import React, { FC } from 'react';
 import { toDate } from '../../../helpers/date.helper';
 import { DefaultButton } from '@fluentui/react';
