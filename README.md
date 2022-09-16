@@ -10,7 +10,7 @@ Below are the available projects in this repo:
 
 ## Resources
 
-1. [Documentation - Getting Started Kit for Intelligent Appointments](/)
+[Getting started kit for Intelligent appointments](https://docs.microsoft.com/en-us/dynamics365/industry/financial-services/intelligent-appointments-gs-kit)     
 
 ## Contributing
 
