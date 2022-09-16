@@ -10,7 +10,11 @@ Below are the available projects in this repo:
 
 ## Resources
 
-1. [Documentation - Getting Started Kit for Intelligent Appointments](/)
+[Overview of Intelligent appointments](https://docs.microsoft.com/en-us/dynamics365/industry/financial-services/intelligent-appointments)  
+[Getting started kit for Intelligent appointments](https://docs.microsoft.com/en-us/dynamics365/industry/financial-services/intelligent-appointments-gs-kit)     
+[Configure and install the Getting Started kit for Intelligent appointments](https://docs.microsoft.com/en-us/dynamics365/industry/financial-services/configure-install-intelligent-appointments-gs-kit)      
+[Server gateway customization](https://docs.microsoft.com/en-us/dynamics365/industry/financial-services/server-gateway-customization)     
+[Using the Getting Started kit for Intelligent appointments](https://docs.microsoft.com/en-us/dynamics365/industry/financial-services/using-getting-started-kit-ia)
 
 ## Contributing
 
