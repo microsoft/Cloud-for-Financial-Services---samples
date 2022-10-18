@@ -5,7 +5,7 @@
 # Install app dependencies
 npm install react
 
-# Change directory to the intelligent appointment starter kit and run the command below
+# Change directory to the appointment starter kit and run the command below
 yarn build
 
 # Build SWA Project
