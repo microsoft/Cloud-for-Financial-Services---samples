@@ -3,6 +3,7 @@
 import { IMeeting } from '../models/IMeeting';
 import { DelegatorFunc } from '../models/IRequestPayLoad';
 import { CANCEL_MEETING, CREATE_MEETING, getRequestPayload, MEETINGS } from './constants';
+import { getParam } from "../helpers/queryParams.helper";
 import { 
     IMeetingActionsService, 
     IMeetingConfig, 
@@ -33,7 +34,7 @@ export const createMeetingServices = (delegator: DelegatorFunc): IMeetingActions
             const requestPayload: CreateMeetingPayload = {
                 MeetingType: configuration.meetingTypeId,
                 StartDateTime: configuration.startTime,
-                Contact: '',
+                Contact: getParam('contactId'),
                 RequestedAdvisors: configuration.advisors.map(advisor => advisor.id),
                 CustomerAdditionalNotes: configuration.note,
                 IsOnlineMeeting: configuration.isVirtual || false,
