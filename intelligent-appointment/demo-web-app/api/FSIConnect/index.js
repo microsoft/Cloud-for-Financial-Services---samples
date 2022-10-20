@@ -39,8 +39,8 @@ module.exports = async function (context, req) {
     
     const url = `${endPoint}/${req.body.fsiCallbackName}`;
     const data = req.body.payload?.body ? { ...req.body.payload?.body } : undefined 
-     
-    if (data && req.body.payload?.Contact) {        
+    
+    if (data && req.body.payload?.Contact && req.body.fsiCallbackName !== 'msfsi_GetAvailableMeetingTimeSlots') { 
         data.Contact = req.body.payload?.Contact
     }
 

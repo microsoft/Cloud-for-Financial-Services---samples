@@ -1,12 +1,13 @@
 # Install Azure CLI: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
 #az --version >= 2.36+
-#Run on: \Intelligent-Appointments-WebApp\appointment-apis\demos\self-scheduling
 
 # Install app dependencies
 npm install react
 
-# Change directory to the appointment starter kit and run the command below
+# Run on \Cloud-for-Financial-Services---samples\intelligent-appointment\appointment-starter-kit 
 yarn build
+
+#Run on: \Cloud-for-Financial-Services---samples\intelligent-appointment\demo-web-app
 
 # Build SWA Project
 swa build --app-location . --output-location dist --api-location api --app-build-command "yarn build" --api-build-command "npm run build --if-present"
@@ -16,7 +17,7 @@ $tenantId = Read-Host -Prompt 'Enter your Azure Active Directory tenant ID'
 $subscriptionId = Read-Host -Prompt 'Enter your Azure subscription ID'
 $resourceGroup = Read-Host -Prompt 'Enter your resource group name'
 $clientId = Read-Host -Prompt 'Enter your App client id' # This is the application client id from the app registration
-$clientSecret = Read-Host -Prompt 'Enter your client secret value' -AsSecureString # This is the application client secret from the app registration 
+$clientSecret = Read-Host -Prompt 'Enter your client secret value' # This is the application client secret from the app registration 
 $env_url = Read-Host -Prompt 'Enter your environment URL'
 $region = Read-Host -Prompt 'Enter your prefered region location (e.g centralus, eastus2, eastasia, westeurope. westus2)'
 $appName = Read-Host -Prompt 'Enter your Static WebApp application name'
