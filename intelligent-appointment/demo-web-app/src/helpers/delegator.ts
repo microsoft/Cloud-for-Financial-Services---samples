@@ -14,7 +14,11 @@ export const delegator = async (request: IRequestPayload) => {
 
     if (data.payload?.body) {
         //The current logged in user contact id is required for the request with the body payload
-        (data as any).payload.Contact = (window as any).currentUser?.id
+        (data as any).payload.Contact = (window as any).currentUser?.id  
+        
+        //Example: The contact id from query parameter
+        //const queryParams = new URLSearchParams(window.location.search);      
+        //(data as any).payload.Contact = queryParams.get('contactId')        
     }
 
     const result = await sendRequest(endpoint, {
