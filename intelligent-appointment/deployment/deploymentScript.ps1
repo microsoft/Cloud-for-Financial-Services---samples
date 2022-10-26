@@ -5,11 +5,15 @@
 npm install react
 
 # Run on \Cloud-for-Financial-Services---samples\intelligent-appointment\appointment-starter-kit 
+cd..
+cd appointment-starter-kit
 yarn build
 
 #Run on: \Cloud-for-Financial-Services---samples\intelligent-appointment\demo-web-app
 
 # Build SWA Project
+cd..
+cd demo-web-app
 swa build --app-location . --output-location dist --api-location api --app-build-command "yarn build" --api-build-command "npm run build --if-present"
 
 # Prompting user for the configuration parameters
