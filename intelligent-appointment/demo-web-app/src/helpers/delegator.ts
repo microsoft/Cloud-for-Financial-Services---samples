@@ -14,13 +14,11 @@ export const delegator = async (request: IRequestPayload) => {
 
     if (data.payload?.body) {
         
-        //The current logged in user contact id is required for the request with the body payload
-        (data as any).payload.Contact = (window as any).currentUser?.id  
-        
+            
         //SAMPLE CODE: Get the contact id from a query parameter http://[YOUR URL]/?id=[GUID]
-        //const queryParams = new URLSearchParams(window.location.search);      
+        const queryParams = new URLSearchParams(window.location.search);      
         // This will get the 'id' parameter from the url. This can be used if you use the sample web app in an iFrame
-        //(data as any).payload.Contact = queryParams.get('id')        
+        (data as any).payload.Contact = queryParams.get('id')        
     }
 
     const result = await sendRequest(endpoint, {
