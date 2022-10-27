@@ -11,9 +11,9 @@ The Starter kit aims is to simplify the development process and allow Microsoft 
 1. [Node.js](https://nodejs.dev) version from 14.x or 16.x (recommended).
 2. [Yarn](https://yarnpkg.com) for workspace package management.
 
-### If you want to experiment with our Starter kit in a demo web app using Azure Web Services
+### If you want to experiment with our Starter kit in a demo web app using Azure Web Apps
 
-1. Active Azure Web Services subscriptions
+1. Active Azure subscription
 2. VS Studio Code and [Azure Function Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
 3. [Azure Functions Core Tools 4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#install-the-azure-functions-core-tools)
 4. [Experimenting with Azure Static Web Apps](https://azure.github.io/static-web-apps-cli/)
