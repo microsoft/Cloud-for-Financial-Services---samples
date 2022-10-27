@@ -6,10 +6,6 @@ const endPoint = `${process.env.ENVIRONMENT_URL}/api/data/${process.env.ENVIRONM
 
 module.exports = async function (context, req) {
     
-    if (timer === 0) {
-        await requestToken()
-    }
-    
     const url = `${endPoint}/${req.body.fsiCallbackName}`;
     const data = req.body.payload?.body ? { ...req.body.payload?.body } : undefined 
     
