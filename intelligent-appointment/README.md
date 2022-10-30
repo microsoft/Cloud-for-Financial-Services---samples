@@ -41,9 +41,11 @@ yarn
 yarn build
 ```
 
-**Note**: Every time you change the code within `/appointment-starter-kit`, you must run the `yarn build` command to make sure the project is built and updated..
+**Note**: Every time you change the code within `/appointment-starter-kit`, you must run the `yarn build` command to make sure the project is built and updated.
 
-3. Navigate to `demo-web-app` to configure and start the local dev environment for the demo app, or build and deploy it based on your requirement.
+3. If you want to have full experience with an Azure web function in the demo app, [configure your application environment variables first](#configure-environment-variables-for-azure-function).
+
+4. Navigate to `demo-web-app` to configure and start the local dev environment for the demo app, or build and deploy it based on your requirement.
 
    Run either of the following commands:
 
@@ -55,6 +57,48 @@ yarn build
 
    ```
 
+## Configure environment variables for Azure function
+
+In order to use Azure function as your app gateway to establish connection with your Intelligent Appointment environment and exchange data, you need to configure the following environment variables:
+
+| Variable             | Description                                  |
+|----------------------|----------------------------------------------|
+| CLIENT_ID            |                                              |
+| CLIENT_SECRET        |                                              |
+| ENVIRONMENT_URL      | Your Intelligent Appointment environment URL |
+| TENANT               | Your environment tenant id                   |
+| ENVIRONMENT_VERSION  | Version of your IA environment               |
+
+## Local
+
+If you run the Azure web app (including Azure function) locally, you need to configure your `api\local.settings.json` file to include these variables, as seen in the below sample code:
+
+```json
+"Values": {
+   "CLIENT_ID": "your-client-id",
+   "CLIENT_SECRET": "your-secret-id",
+   "ENVIRONMENT_URL": "your-ia-environment-url",
+   "TENANT": "your-tenant-id",
+   "ENVIRONMENT_VERSION": "your-ia-environment-version"
+}
+```
+
+## Production
+
+In your web application instance on Azure Portal, do the following:
+
+1. Select **Configurations** on the left panel
+2. Select **Application settings** tab
+3. Hit on **Add** to add new pair of environment value.
+4. Provide the name according to the table above, and its value accordingly.
+5. Save
+
+Now your application is ready!
+
+See [Azure ADB2C Authentication Overview](https://learn.microsoft.com/en-us/azure/active-directory-b2c/technical-overview)
+
+The sample Azure function comes with a naive implementation of token generation for enabling the connection between Azure web app and Intelligent Appointment APIs in PowerApps environment, according to the [the official guidelines and library](https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-common/docs/request.md#client-credentials-flow).
+
 ## Resources
 
 [Overview of Intelligent appointments](https://docs.microsoft.com/en-us/dynamics365/industry/financial-services/intelligent-appointments)  
@@ -62,3 +106,4 @@ yarn build
 [Configure and install the Getting Started kit for Intelligent appointments](https://docs.microsoft.com/en-us/dynamics365/industry/financial-services/configure-install-intelligent-appointments-gs-kit)      
 [Server gateway customization](https://docs.microsoft.com/en-us/dynamics365/industry/financial-services/server-gateway-customization)     
 [Using the Getting Started kit for Intelligent appointments](https://docs.microsoft.com/en-us/dynamics365/industry/financial-services/using-getting-started-kit-ia)
+****
