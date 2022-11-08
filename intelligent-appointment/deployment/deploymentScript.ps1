@@ -1,11 +1,15 @@
 # Install Azure CLI: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
 #az --version >= 2.36+
 
+# Install Static Web Apps CLI https://azure.github.io/static-web-apps-cli/
+npm install -g @azure/static-web-apps-cli
+
 # Install app dependencies
+cd ~\Cloud-for-Financial-Services---samples\
 npm install react
 
-# Run on \Cloud-for-Financial-Services---samples\intelligent-appointment\appointment-starter-kit 
-cd..
+# Run on directory of extracted file
+cd ~\Cloud-for-Financial-Services---samples\intelligent-appointment\
 cd appointment-starter-kit
 yarn build
 
