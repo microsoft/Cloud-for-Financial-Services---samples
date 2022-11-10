@@ -1,17 +1,19 @@
 # Install Azure CLI: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
 #az --version >= 2.36+
 
-# Install app dependencies
+# If you run it for first time make sure Static Web Apps CLI is installed (https://azure.github.io/static-web-apps-cli/)
+npm install -g @azure/static-web-apps-cli
+
+# Install app dependencies. Make sure to run the following commands based on your extracted files directory structure.
+cd ~\Cloud-for-Financial-Services---samples\
 npm install react
 
-# Run on \Cloud-for-Financial-Services---samples\intelligent-appointment\appointment-starter-kit 
-cd..
+# Run the below commands based on your extracted files directory structure. 
+cd ~\Cloud-for-Financial-Services---samples\intelligent-appointment\
 cd appointment-starter-kit
 yarn build
 
-#Run on: \Cloud-for-Financial-Services---samples\intelligent-appointment\demo-web-app
-
-# Build SWA Project
+# Build SWA Project within the ~\Cloud-for-Financial-Services---samples\intelligent-appointment\demo-web-app\
 cd..
 cd demo-web-app
 swa build --app-location . --output-location dist --api-location api --app-build-command "yarn build" --api-build-command "npm run build --if-present"
