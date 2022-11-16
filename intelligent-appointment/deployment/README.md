@@ -2,7 +2,7 @@
 
 ## Table of Content
 
-1. [Introduction](#1.-introduction)
+1. [Introduction](#introduction)
 2. [Deployment](#deployment)
 3. [Create App Registration](#create-app-registration)
 4. [Create Service to Service Authentication with Dataverse environment](#create-service-to-service-authentication-with-dataverse-environment)
