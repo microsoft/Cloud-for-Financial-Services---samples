@@ -12,7 +12,7 @@
 
 ## Introduction
 
-This document will you deploy the Getting Started kit to an Azure Static Web App. The Getting started kit for Intelligent appointments (Starter kit) provides architectural guidance, services, patterns, and a collection of React components to enable the front-end experience. In addition, the kit provides services that encapsulate the Intelligent Appointments APIs. The kit also provides a demo react web app with built-in wizard experience and a sample serverless function that is ready to connect to your Intelligent appointments environment with minimal configuration. The kit helps to simplify the development process and allows Microsoft customers to extend their own Intelligent Appointments solution.
+This document you will deploy the Getting Started kit to an Azure Static Web App. The Getting started kit for Intelligent appointments (Starter kit) provides architectural guidance, services, patterns, and a collection of React components to enable the front-end experience. In addition, the kit provides services that encapsulate the Intelligent Appointments APIs. The kit also provides a demo react web app with built-in wizard experience and a sample serverless function that is ready to connect to your Intelligent appointments environment with minimal configuration. The kit helps to simplify the development process and allows Microsoft customers to extend their own Intelligent Appointments solution.
 
 **Getting Started kit Architecture Diagram:** <br><br>
 ![](./media/swa-deploymentdiagram-IntelligentAppointment-whitebg.png) <br><br>
