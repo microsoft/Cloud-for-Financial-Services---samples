@@ -195,7 +195,7 @@ Copy and paste your variables <br><br>
 
 9. Login to the Azure Static Web App. A web browser will be opened for authentication. <br>
 `swa login --subscription-id $subscriptionId --resource-group $resourceGroup --tenant-id $tenantId --clear-credentials` <br>
-then get the Azure Static Web App deployment key: `$deploymentKey = az staticwebapp secrets list --name \$appName --query "properties.apiKey"` <br><br>
+then get the Azure Static Web App deployment key: `$deploymentKey = az staticwebapp secrets list --name $appName --query "properties.apiKey"` <br><br>
 ![](./media/image43.png)
 
 10. Deploy the Azure Static Web App `swa deploy --deployment-token=$deploymentKey ./dist --api-location ./api --env production --app-name $appName --resource-group $resourceGroup` <br><br>
