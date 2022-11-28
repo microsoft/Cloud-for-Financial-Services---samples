@@ -166,7 +166,7 @@ Lastly, what remains is to build the Getting Started kit for Intelligent Appoint
 ![](./media/image37.png)
 
 5. Navigate to the `demo-web-app folder` and then build the SWA project using the following command:
-`swa build --app-location . --output-location dist --api-location api --app-build-command "yarn build\" --api-build-command "npm run build --if-present"` <br><br>
+`swa build --app-location . --output-location dist --api-location api --app-build-command "yarn build" --api-build-command "npm run build --if-present"` <br><br>
 ![](./media/image38.png)
 
 6. Now you will set up the variables for later steps. You will use the previously noted values. You can use a Notepad or any other text editor to prepare the variables, and then you can copy them all to your PowerShell. <br>
