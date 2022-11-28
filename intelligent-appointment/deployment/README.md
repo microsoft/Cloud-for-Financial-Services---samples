@@ -159,8 +159,7 @@ Lastly, what remains is to build the Getting Started kit for Intelligent Appoint
 2. Open a PowerShell and select the folder where you extracted the Sample kit (Cloud-for-Financial-Services\-\--samples).<br><br>
 ![](./media/image34.png)
 
-3. Run `npm install react`, this will install all the needed packages for the build. <br><br>
-![](./media/image36.png)
+3. Run `yarn`, this will install all the needed packages for the build. <br><br>
 
 4. Navigate to the `appointment-started-kit` folder to build, and then run `yarn build` <br><br>
 ![](./media/image37.png)
