@@ -162,7 +162,7 @@ Lastly, what remains is to build the Getting Started kit for Intelligent Appoint
 3. Run `npm install react`, this will install all the needed packages for the build. <br><br>
 ![](./media/image36.png)
 
-4. Navigate to the `appointment-started-kit` folder to build, and then run **yarn build <br><br>
+4. Navigate to the `appointment-started-kit` folder to build, and then run `yarn build` <br><br>
 ![](./media/image37.png)
 
 5. Navigate to the `demo-web-app folder` and then build the SWA project using the following command:
