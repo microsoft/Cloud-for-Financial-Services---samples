@@ -10,8 +10,5 @@
   "devDependencies": {
     "vite-plugin-dts": "^1.3.0",
     "yarn": "1.22.19"
-  },
-  "dependencies": {
-    "react": "^17.0.2"
   }
 }
