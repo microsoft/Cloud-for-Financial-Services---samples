@@ -99,6 +99,11 @@ See [Azure ADB2C Authentication Overview](https://learn.microsoft.com/en-us/azur
 
 The sample Azure function comes with a naive implementation of token generation for enabling the connection between Azure web app and Intelligent Appointment APIs in PowerApps environment, according to the [the official guidelines and library](https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-common/docs/request.md#client-credentials-flow).
 
+## Deploy the Getting started kit for Intelligent appointments to Azure Static Web Apps
+
+For detailed instructions on how to configure your Intelligent appointments environment and deploy the Starter kit to Azure Static Web Apps, see the [full tutorial.](https://learn.microsoft.com/en-us/dynamics365/industry/financial-services/deploy-ia-gs-kit-azure)
+
+
 ## Resources
 
 [Overview of Intelligent appointments](https://docs.microsoft.com/en-us/dynamics365/industry/financial-services/intelligent-appointments)  
